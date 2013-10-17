@@ -15,6 +15,8 @@
     var winResize = new THREEx.WindowResize(renderer, ship.camera)
     
     function update() {
+        ship.update()
+
         renderer.clear()
 
         ship.camera.far = 10000000
