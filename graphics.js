@@ -13,7 +13,6 @@
     
     function update() {
         renderer.clear()
-        ship.controls.update()
         ship.camera.far = 10000000
         ship.camera.updateProjectionMatrix()
         renderer.render(background, ship.camera)
