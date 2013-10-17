@@ -1,4 +1,4 @@
 Star-Dive
 =========
 
-Voice controlled 
+Voice controlled Game
